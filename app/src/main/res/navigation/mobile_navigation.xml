@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_explore">
+
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="sg.edu.ntu.myloginapplication2.ui.explore.ExploreFragment"
+        android:label="@string/title_explore"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="sg.edu.ntu.myloginapplication2.ui.cart.CartFragment"
+        android:label="@string/title_cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/navigation_contact"
+        android:name="sg.edu.ntu.myloginapplication2.ui.contact.ContactFragment"
+        android:label="@string/title_contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>
